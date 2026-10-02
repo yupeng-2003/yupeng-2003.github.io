@@ -4,7 +4,7 @@ const translatable = document.querySelectorAll('[data-en][data-zh]');
 function setLanguage(language) {
   const isChinese = language === 'zh';
   document.documentElement.lang = isChinese ? 'zh-CN' : 'en';
-  document.title = isChinese ? '喻彭 · 人工智能研究者' : 'Peng Yu · AI Researcher';
+  document.title = isChinese ? '喻彭 · 西安交通大学' : "Peng Yu · Xi'an Jiaotong University";
 
   translatable.forEach((element) => {
     element.textContent = element.dataset[isChinese ? 'zh' : 'en'];
