@@ -41,6 +41,7 @@ img { max-width: 100%; }
 .profile-links a { display: flex; align-items: center; gap: 10px; padding: 5px 4px; color: #444; font-size: .83rem; }
 .profile-links a:hover { color: var(--blue); text-decoration: none; }
 .link-icon { width: 20px; color: #5c6670; text-align: center; font-size: .85rem; font-weight: 700; }
+.github-icon { width: 18px; height: 18px; margin: 0 1px; }
 .scholar-icon { color: #4285f4; font-family: Georgia, serif; font-size: 1rem; }
 .orcid-icon { color: #83b81a; font-size: .72rem; }
 .location { margin: 17px 0 0; color: #888; font-size: .76rem; }
@@ -80,6 +81,8 @@ img { max-width: 100%; }
 .thumb-review { background: linear-gradient(145deg, #7a4b3e, #bd7a62); }
 .thumb-irso { background: linear-gradient(145deg, #343d4c, #657083); }
 .paper-info h3 { margin: -3px 0 7px; font-size: 1.01rem; font-weight: 650; line-height: 1.38; }
+.paper-info h3 a { color: #222; }
+.paper-info h3 a:hover { color: var(--blue); }
 .authors, .venue, .paper-summary { margin: 4px 0; font-size: .83rem; line-height: 1.5; }
 .authors { color: #4c4c4c; }
 .authors strong { color: #111; }
